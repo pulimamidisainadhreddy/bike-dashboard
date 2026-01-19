@@ -12,7 +12,7 @@ st.markdown("### MY DASHBOARD TEST ✅")
 # =========================
 # Load dataset
 # =========================
-df = pd.read_csv("C:\\Users\\SAINADH\\Downloads\\train.csv")
+df = pd.read_csv("train.csv")
 
 # Convert datetime
 df["datetime"] = pd.to_datetime(df["datetime"])
